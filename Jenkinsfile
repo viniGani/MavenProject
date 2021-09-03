@@ -1,6 +1,6 @@
 pipeline{
     agent anystahes{
-        stage('init'){
+        stages('init'){
             steps{
                 echo "Hi , this is vinay from vij"
                 echo "We are starting the testing"
